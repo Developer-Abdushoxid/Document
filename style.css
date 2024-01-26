@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.asosiy{
+    display: flex;
+    margin-top: 50px;
+
+}
+.container{
+    width:50%;
+    height: 500px;
+    padding: 50px 50px;
+    background-color: rgb(205, 205, 205);
+    margin: 20px;
+    box-sizing: border-box;
+}
+.name{
+   font-size: 25px; 
+   color: rgb(2, 68, 68);
+   padding-top: 20px;
+
+}
+.surName{
+    font-size: 25px; 
+    color: rgb(2, 68, 68);
+    padding-top: 20px;
+ }
+ .age{
+    font-size: 25px; 
+    color: rgb(2, 68, 68);
+    padding-top: 20px;
+ }
+ .job{
+    font-size: 25px; 
+    color: rgb(2, 68, 68);
+    padding-top: 20px;
+ }
+.name input{
+    font-size: 20px;
+    margin-left: 55px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(183, 251, 251);
+    border: 1px solid black;
+}
+.surName input{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(183, 251, 251);
+    border: 1px solid black;
+}
+.age input{
+    font-size: 20px;
+    margin-left: 42px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(183, 251, 251);
+    border: 1px solid black;
+}
+.job input{
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(183, 251, 251);
+    border: 1px solid black;
+}
+
+button{
+    margin: 100px 0 0 220px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px ;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgb(17, 5, 5);
+}
+.container1{
+    width:50%;
+    height: 500px;
+    padding: 10px 50px;
+    background-color: rgb(205, 205, 205);
+    margin-top: 20px;
+    box-sizing: border-box;
+    
+    
+}
+
+  
+.container1 .name1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 60px;
+    margin-left: 170px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top:5px ;
+}
+.container1 .surName1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 170px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top:5px ;
+}
+.container1 .age1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 170px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top:5px ;
+}
+.container1 .job1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 170px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top:5px ;
+    
+}
+
+.modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-20px, 20px );
+    width: 300px;
+    border-radius: 5px;
+    background-color: #32bcbc;
+    color: #e2f8f8;
+  }
+  .modal h5 {
+    padding:10px;
+  }
+  .range {
+    width: 299px;
+    height: 4px;
+    background-color: rgb(111, 247, 13);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .range-animeta {
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+  
+  
+  @keyframes animate {
+    0% {
+      width: 299px;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  .hidden {
+    display: none;
+  }
